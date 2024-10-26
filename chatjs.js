@@ -52,7 +52,7 @@ function generateBotResponse(input) {
     if (input.toLowerCase().includes("horario de atención")) {
         botMessage.textContent = "Nuestro horario de atención es de 8:00 am a 6:00 pm.";
     } else if (input.toLowerCase().includes("pasos para reclamación")) {
-        botMessage.textContent = "Ingrese a la PQR innovatetech.com.co.";
+        botMessage.textContent = "Llamenos al +57 3217894188 para mas informacion para su reclamo o queja.";
     } else {
         botMessage.textContent = "Lo siento, no entiendo tu pregunta. ¿Podrías reformularla?";
     }
